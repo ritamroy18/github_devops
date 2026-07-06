@@ -1,0 +1,38 @@
+Linus torvals created git on 2005 and Junio hamano mainṭāin git .It is used for tracking the changes
+
+Git concepts:
+
+Repository: Where git tracks the project and its histroy
+Clone: Make a copy of your repo to your local computer
+Stage: Git told us which changes you want to save next
+Commit: Save a snapshot of your stage changes
+Branch: Work on different versions of features at the same time
+Pull : Get the latest changes
+Push: Send your changes to remote
+
+
+Working with Git:
+
+Initialize Git on a folder, making it a Repository
+Git now creates a hidden folder to keep track of changes in that folder
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+Git allows you to see the full history of every commit.
+You can revert back to any previous commit.
+Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
+
+Git Install:
+
+sudo apt-get install git
+
+git --version
+
+Install vscode from chatgpt step by step follow
+
+git config --global core.editor "code --wait" ---> Default editor vscode
+
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
